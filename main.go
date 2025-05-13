@@ -29,6 +29,7 @@ type thumbnail struct {
 	mediaType string
 }
 
+// Video ids and thumbnails
 var videoThumbnails = map[uuid.UUID]thumbnail{}
 
 func main() {
